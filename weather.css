@@ -1,0 +1,57 @@
+/* Weatherproject.css */
+.weather-container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.weather-container h1 {
+  color: #4a90e2;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.weather-container input {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.weather-container button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-container button:hover {
+  background-color: #357ab7;
+}
+
+.weather-container p {
+  font-size: 1.2em;
+}
+
+.error-message {
+  color: red;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+.weather-info p {
+  font-size: 1.5em;
+  color: #555;
+}
